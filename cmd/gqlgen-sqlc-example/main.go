@@ -12,7 +12,7 @@ import (
 
 func main() {
 	// initialize the db
-	db, err := pg.Open("dbname=cducbdmcfmvbai:eb7f377b251973723caf4075b463c928f93a5d61296832a4ed7f69cdba27fc02@ec2-44-205-112-253.compute-1.amazonaws.com:5432/dutvg8v4vddc4 sslmode=disable")
+	db, err := pg.Open("dbname=777cducbdmcfmvbai:eb7f377b251973723caf4075b463c928f93a5d61296832a4ed7f69cdba27fc02@ec2-44-205-112-253.compute-1.amazonaws.com:5432/dutvg8v4vddc4 sslmode=disable")
 	if err != nil {
 		panic(err)
 	}
