@@ -8,7 +8,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/fwojciec/gqlgen-sqlc-example/pg" // update the username
+	"github.com/shilohchurch/shilohchurch/pg" // update the username
 )
 
 type contextKey string
