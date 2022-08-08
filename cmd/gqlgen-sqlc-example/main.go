@@ -5,14 +5,14 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/fwojciec/gqlgen-sqlc-example/dataloaders" // update the username
-	"github.com/fwojciec/gqlgen-sqlc-example/gqlgen"      // update the username
-	"github.com/fwojciec/gqlgen-sqlc-example/pg"          // update the username
+	"github.com/shilohchurch/shilohchurch/dataloaders" // update the username
+	"github.com/shilohchurch/shilohchurch/gqlgen"      // update the username
+	"github.com/shilohchurch/shilohchurch/pg"          // update the username
 )
 
 func main() {
 	// initialize the db
-	db, err := pg.Open("dbname=gqlgen_sqlc_example_db sslmode=disable")
+	db, err := pg.Open("dbname=cducbdmcfmvbai:eb7f377b251973723caf4075b463c928f93a5d61296832a4ed7f69cdba27fc02@ec2-44-205-112-253.compute-1.amazonaws.com:5432/dutvg8v4vddc4 sslmode=disable")
 	if err != nil {
 		panic(err)
 	}
