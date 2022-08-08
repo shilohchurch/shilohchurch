@@ -1,6 +1,6 @@
-module github.com/fwojciec/gqlgen-sqlc-example
+module github.com/shilohchurch/shilohchurch
 
-go 1.13
+go 1.18
 
 require (
 	github.com/99designs/gqlgen v0.10.2
